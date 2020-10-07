@@ -56,5 +56,5 @@ try:
     print("LED_OFF") #거리가 10cm 밖이면 LED가 꺼진다
     GPIO.output(GPIO_LED, GPIO.LOW)
 
-except KeyboardInterrupt:
+except KeyboardInterrupt: #키보드 예외 검출
   GPIO.cleanup()
