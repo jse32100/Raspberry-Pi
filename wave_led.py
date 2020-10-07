@@ -58,3 +58,4 @@ try:
 
 except KeyboardInterrupt: #키보드 예외 검출
   GPIO.cleanup()
+  
